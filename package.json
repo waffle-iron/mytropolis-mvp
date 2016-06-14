@@ -4,7 +4,8 @@
   "description": "'Share rent info'",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "dev-start": "NODE_ENV=dev nodemon server.js",
     "test": "echo 'No tests yet'"
   },
   "repository": {

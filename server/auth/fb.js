@@ -1,9 +1,14 @@
 var passport = require('passport');
 var FacebookStrategy = require('passport-facebook');
-var keys = require('./../config/fb');
 
-var clientID = process.env.FB_CLIENT_ID || keys.clientID;
-var clientSecret = process.env.FB_CLIENT_ID || keys.clientSecret;
+if (process.env.NODE_ENV === 'dev') {
+  var keys = require('./../config/fb'),
+      clientID = keys.clientID;
+      clientSecret = keys.clientSecret;
+} else {
+  var clientID = process.env.FB_CLIENT_ID,
+      clientSecret = process.env.FB_CLIENT_ID;
+}
 
 // var User = require('./../db/users/userModel');
 
