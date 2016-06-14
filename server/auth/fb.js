@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === 'dev') {
       clientSecret = keys.clientSecret;
 } else {
   var clientID = process.env.FB_CLIENT_ID,
-      clientSecret = process.env.FB_CLIENT_ID;
+      clientSecret = process.env.FB_CLIENT_SECRET;
 }
 
 // var User = require('./../db/users/userModel');
