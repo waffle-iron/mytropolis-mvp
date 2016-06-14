@@ -3,8 +3,12 @@
   src: url('./Metropolis1920.otf');
 }
 
-.logo {
+.logo, .logo:hover {
   font-family: 'Metropolis1920';
+  text-decoration: none;
+  font-size: 3em;
+  display: block;
+  padding-top: 20px;
   color: white;
 }
 
