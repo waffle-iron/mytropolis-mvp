@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Metropolis1920';
+  src: url('./Metropolis1920.otf');
+}
 
- div.social-wrap a {
+.logo {
+  font-family: 'Metropolis1920';
+  color: white;
+}
+
+div.social-wrap a {
   padding-left: 45px;
   height: 35px;
   background: none;
