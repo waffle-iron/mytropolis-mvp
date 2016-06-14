@@ -6,12 +6,10 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
 }
 
 /* Small Devices, Tablets */
@@ -24,12 +22,10 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
 }
 
 
@@ -138,12 +134,14 @@
 	.counter-up .fact-inner .fa-3x {
 		font-size: 36px;
 	}
-
+	/* Padding issues when this size */
+	.rotate-box-1 p {
+		padding: 0 0px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
 	/* Navbar brand */
 	.navbar-brand, .navbar-brand:focus {
 		margin-left: 10px;
@@ -265,7 +263,6 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-
 	/* Team */
 	 #team-section .col-md-2 {
         width: 100%;
