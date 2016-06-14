@@ -1,6 +1,10 @@
 var passport = require('passport');
 var FacebookStrategy = require('passport-facebook');
 var keys = require('./../config/fb');
+
+var clientID = process.env.FB_CLIENT_ID || keys.clientID;
+var clientSecret = process.env.FB_CLIENT_ID || keys.clientSecret;
+
 // var User = require('./../db/users/userModel');
 
 // Middleware for checking whether the user is logged in
@@ -33,8 +37,8 @@ passport.deserializeUser(function(user, done) {
 });
 
 passport.use(new FacebookStrategy.Strategy({
-  clientID: keys.clientID,
-  clientSecret: keys.clientSecret,
+  clientID: clientID,
+  clientSecret: clientSecret,
   callbackURL: '/auth/facebook/callback',
   profileFields: ['id', 'displayName', 'link', 'email', 'first_name', 'last_name', 'picture', 'gender', 'verified', 'locale'],
 }, 
