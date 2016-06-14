@@ -5,7 +5,7 @@ var router = require('./server/router/routes');
 var port = process.env.PORT || 5000;
 var app = express();
 
-require('./server/db/relationships')();
+// require('./server/db/relationships')();
 
 app.use(passport.initialize());
 
