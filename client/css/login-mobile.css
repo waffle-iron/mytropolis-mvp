@@ -15,9 +15,9 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 	/* Make Navigation Toggle on Desktop Hover (use class: dropdown-hover) */
-    .dropdown-hover:hover > .dropdown-menu {
-        display: block;
-    }
+  .dropdown-hover:hover > .dropdown-menu {
+      display: block;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -39,7 +39,7 @@
 
 	/* Text Carousel */
 	#text-carousel-intro-section .caption h1 {
-		font-size: 50px;
+		font-size: 3em;
 	}
 
 	/* Team */
