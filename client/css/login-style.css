@@ -273,7 +273,7 @@ section {
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
-	height: 100%;
+	height: calc(100% - 18px);
 }
 #text-carousel-intro-section .container {
 	height: 100%;
@@ -947,6 +947,7 @@ ul.imp-links li a {
 
 /* ===== Begin page header ===== */
 .page-header {
+	position: relative;
 	margin: 0 0 60px 0;
 	padding: 0;
 	border: none;
@@ -1166,7 +1167,7 @@ div.social-wrap a {
 a#facebook {
   border-color: #2d5073;
   background-color: #4a6ea9;
-  background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
+  background-image: url(../img/facebook-icon.png);
 }
 
 a#facebook:hover {

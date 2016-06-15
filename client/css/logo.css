@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Metropolis1920';
-  src: url('./Metropolis1920.otf');
+  src: url('../inc/Metropolis1920.otf');
 }
 
 .logo, .logo:hover {

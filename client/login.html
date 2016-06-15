@@ -33,8 +33,11 @@
 
   </head>
 
-  <body data-spy="scroll" data-target="#main-navbar">
-    <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+  <body onload="(function() {
+    var loader = document.getElementsByClassName('page-loader')[0];
+    loader.parentNode.removeChild(loader);
+  })()">
+    <div class="page-loader"></div>  Display loading image while page loads
     <div class="body">
     
       <!--========== BEGIN HEADER ==========-->
@@ -47,7 +50,7 @@
 
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -73,10 +76,10 @@
       <!-- ========= END HEADER =========-->
       
       <!-- Begin text carousel intro section -->
-      <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/slider-bg.jpg);">
+      <section id="text-carousel-intro-section" class="parallax" style="background-image: url(img/slider-bg.jpg);">
         
         <div class="container">
-          <div class="caption text-center text-white" data-stellar-ratio="0">
+          <div class="caption text-center text-white">
             <div>
               <div class="item">
                 <h1>How much do your neighbors pay for their apartment?</h1>
@@ -171,7 +174,7 @@
             </div>
             
             <div class="col-md-3">
-              <div class="cta-btn>
+              <div class="cta-btn">
                 <a class="btn btn-default btn-lg" href="" target="_blank" role="button">Check them out</a>
               </div>
             </div>
@@ -216,7 +219,7 @@
         
       <!-- Begin testimonials -->
       <section id="testimonial-section">
-        <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/skyline.jpg);">
+        <div id="testimonial-trigger" class="testimonial text-white parallax" style="background-image: url(img/skyline.jpg);">
           <div class="cover"></div>
           <!-- Begin page header-->
           <div class="page-header-wrapper">
@@ -271,27 +274,5 @@
       <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
                         
     </div><!-- body ends -->
-    
-    
-    
-    
-    <!-- Plugins JS -->
-    <script src="inc/jquery/jquery-1.11.1.min.js"></script>
-    <script src="inc/bootstrap/js/bootstrap.min.js"></script>
-    <!-- <script src="inc/owl-carousel/js/owl.carousel.min.js"></script> -->
-    <script src="inc/stellar/js/jquery.stellar.min.js"></script>
-    <script src="inc/animations/js/wow.min.js"></script>
-    <script src="inc/waypoints.min.js"></script>
-    <script src="inc/isotope.pkgd.min.js"></script>
-    <script src="inc/classie.js"></script>
-    <script src="inc/jquery.easing.min.js"></script>
-    <script src="inc/jquery.counterup.min.js"></script>
-    <script src="inc/smoothscroll.js"></script>
-
-    <!-- Theme JS -->
-    <script src="js/login.js"></script>
-
   </body> 
-    
-      
 </html>
