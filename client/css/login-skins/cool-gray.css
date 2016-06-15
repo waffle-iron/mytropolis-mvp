@@ -125,18 +125,6 @@ a, a:hover, a:focus {
 }
 
 
-
-/* === Progress Bar === */
-.progress {
-	border: 3px solid #363940;
-	background-color: transparent;
-}
-.progress-bar {
-	background-color: #676D75;
-}
-
-
-
 /* === CTA Section, Social & Partners === */
 #cta-section, #partners-section, #social-section {
 	background: #f8f8f8 url('../../img/pat-bg.png') repeat;

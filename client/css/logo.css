@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Metropolis1920';
+  src: url('./Metropolis1920.otf');
+}
+
+.logo, .logo:hover {
+  font-family: 'Metropolis1920';
+  text-decoration: none;
+  font-size: 42px;
+  display: block;
+  padding-top: 20px;
+  color: white;
+}

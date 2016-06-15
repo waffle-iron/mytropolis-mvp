@@ -492,15 +492,16 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .testimonial-inner blockquote {
 	border: none;
+	margin-bottom: 1.5em;
 }
 .testimonial-inner blockquote p {
+	font-size: 1.5em;
 	letter-spacing: 2px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 .testimonial-inner blockquote cite {
 	font-style: normal;
 	color: #fff;
-	font-size: 1.5em;
 }
 /* ===== End testimonial ===== */
 
@@ -1142,4 +1143,35 @@ p.subtitle {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-/* ===== End buttons ===== */*/
+/* ===== End buttons ===== */
+
+/*Custom*/
+div.social-wrap a {
+  background: none;
+  background-size: 35px 35px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 4px 2px -2px gray;
+  font-family:"Merriweather Sans", sans-serif;
+  font-size: 14px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding-left: 45px;
+  width: 225px;
+}
+
+a#facebook {
+  border-color: #2d5073;
+  background-color: #4a6ea9;
+  background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
+}
+
+a#facebook:hover {
+  color: white;
+  background-color: #3b5998;
+}
+
+

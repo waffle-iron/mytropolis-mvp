@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mytropolis</title>
     <meta name="description" content="Mytropolis rent information sharing website/>
-    <meta name="keywords" content="html5, javascript, web applications, programming, python" />
+    <meta name="keywords" content="rent prices apartment Manhattan New York City leasing" />
     <meta name="author" content="Muhammad Naqvi">
 
     <!-- mobile metas -->
@@ -21,20 +21,15 @@
     
     <!-- libs and plugins css -->
     <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="inc/animations/css/animate.min.css">
-    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
-    <!-- <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css"> -->
-    <!-- <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css"> -->
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css">
+
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Skin CSS -->
-    <link rel="stylesheet" href="css/skin/cool-gray.css">
-
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/login-skins/cool-gray.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="css/login-mobile.css">
 
   </head>
 
@@ -65,9 +60,8 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a class="page-scroll" href="body">Home</a></li>
-              <li><a class="page-scroll" href="#about-section">About</a></li>
-              <li><a class="page-scroll" href="#team-section">Survey</a></li>              
-              <li><a class="page-scroll" href="#prices-section">Results</a></li>
+              <li><a class="page-scroll" href="#about-section">About</a></li>             
+              <li><a class="page-scroll" href="#cta-section">Results</a></li>
               <li><a class="page-scroll" href="/auth/facebook">Login</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -78,15 +72,11 @@
       </header>
       <!-- ========= END HEADER =========-->
       
-      
-      
-      
       <!-- Begin text carousel intro section -->
       <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/slider-bg.jpg);">
         
         <div class="container">
-          <div class="caption text-center text-white" data-stellar-ratio="0.7">
-
+          <div class="caption text-center text-white" data-stellar-ratio="0">
             <div>
               <div class="item">
                 <h1>How much do your neighbors pay for their apartment?</h1>
@@ -104,15 +94,12 @@
       </section>
       <!-- End text carousel intro section -->
         
-        
-        
-        
       <!-- Begin about section -->
       <section id="about-section" class="page bg-style1">
         <!-- Begin page header-->
         <div class="page-header-wrapper">
           <div class="container">
-            <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+            <div class="page-header text-center">
               <h2>What is Mytropolis?</h2>
               <!-- <div class="devider"></div> -->
               <!-- <p class="subtitle">little information</p> -->
@@ -126,7 +113,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-3 col-sm-6">
-                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                <a href="#" class="rotate-box-1 square-icon">
                   <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
                   <div class="rotate-box-info">
                     <h4>Community</h4>
@@ -136,7 +123,7 @@
               </div>
 
               <div class="col-md-3 col-sm-6">
-                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                <a href="#" class="rotate-box-1 square-icon">
                   <span class="rotate-box-icon"><i class="fa fa-user-times"></i></span>
                   <div class="rotate-box-info">
                     <h4>Anonymous</h4>
@@ -146,7 +133,7 @@
               </div>
 
               <div class="col-md-3 col-sm-6">
-                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                <a href="#" class="rotate-box-1 square-icon">
                   <span class="rotate-box-icon"><i class="fa fa-cog fa-spin"></i></span>
                   <div class="rotate-box-info">
                     <h4>Always Improving</h4>
@@ -156,7 +143,7 @@
               </div>
               
               <div class="col-md-3 col-sm-6">
-                <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                <a href="#" class="rotate-box-1 square-icon">
                   <span class="rotate-box-icon"><i class="fa fa-heart"></i></span>
                   <div class="rotate-box-info">
                     <h4>Renters, like you</h4>
@@ -184,8 +171,8 @@
             </div>
             
             <div class="col-md-3">
-              <div class="cta-btn wow bounceInRight" data-wow-delay="0.4s">
-            <a class="btn btn-default btn-lg" href="" target="_blank" role="button">Check them out</a>
+              <div class="cta-btn>
+                <a class="btn btn-default btn-lg" href="" target="_blank" role="button">Check them out</a>
               </div>
             </div>
             
@@ -203,7 +190,7 @@
         <!-- Begin page header-->
         <div class="page-header-wrapper">
           <div class="container">
-            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+            <div class="page-header text-center">
               <h2>We are building a better community for renters</h2>
             </div>
           </div>
@@ -229,12 +216,12 @@
         
       <!-- Begin testimonials -->
       <section id="testimonial-section">
-        <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/test.jpg);">
+        <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/skyline.jpg);">
           <div class="cover"></div>
           <!-- Begin page header-->
           <div class="page-header-wrapper">
             <div class="container">
-              <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+              <div class="page-header text-center">
                 <h2>What renters are saying</h2>
                 <div class="devider"></div>
               </div>
@@ -249,14 +236,12 @@
                   <footer><cite title="Source Title">Anonymous West Village Renter</cite></footer>
                 </blockquote>
               </div>
-              <br>
               <div class="item">
                 <blockquote>
                   <p>"I wish I had this information before I signed my lease."</p>
                   <footer><cite title="Source Title">Anonymous Midtown East Renter</cite></footer>
                 </blockquote>
               </div>
-              <br>
               <div class="item">
                 <blockquote>
                   <p>"This helped me negotiate my rent down by $300 a month!".</p>
@@ -275,7 +260,7 @@
       <footer class="text-off-white">
         
         <div class="footer">
-          <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+          <div class="container text-center">
             <p class="copyright">Copyright &copy; 2016</p>
           </div>
         </div>
@@ -304,7 +289,7 @@
     <script src="inc/smoothscroll.js"></script>
 
     <!-- Theme JS -->
-    <script src="js/theme.js"></script>
+    <script src="js/login.js"></script>
 
   </body> 
     
